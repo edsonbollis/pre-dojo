@@ -1,2 +1,18 @@
 Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
 quando estivermos avaliando a sua solução
+
+
+A aplicação foi criada como um software desenvolvido para desktop e foi compilada com a versão 1.8 do Java.
+
+No desenvolvimento da aplicação, utilizou-se o Maven para gerenciar a build, o Spring para injeção de dependências e gerencia de contexto de testes e da aplicação e a Apache Commons para ajudar a ler os arquivos de teste.
+
+O projeto foi desenvolvido em três camadas, inspirado no modelo MVC bem documentado, sendo que a camada de acesso a dados, que carrega as informações do arquivo de log e gera os índices para uso da camada service, é chamada DAO (Data Access Object). A segunda camada chamada Services implementa as regras de negócios e os serviços que serão usados pala camada View. Por final tem-se a camada de gerência dos elementos de tela chamada de View.
+
+Foi criado também um modelo de Negócios (entities) que foi utilizada como DTO (Data Transfer Object) para transitar os dados pelas camadas da arquitetura.
+
+A maioria dos algoritmos, do projeto, utilizam algoritmos de ordem linear, sendo que somente os algoritmos que utilizam arvores de busca são considerados O(nlog(n)). Então o projeto tem O(nlog(n)) em média.
+
+Para rodar a aplicação é necessário somente executar o arquivo predojo.jar da pasta ./target. A tela foi criada rapidamente para exibição das informações do arquivo de log. Para carregar o arquivo de log click em Load File->Open e escolha o arquivo que gostaria de carregar. O Ranking será exibido no espaço da tela da aplicação.
+
+
+

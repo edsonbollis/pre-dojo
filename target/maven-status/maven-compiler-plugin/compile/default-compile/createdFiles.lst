@@ -1,0 +1,10 @@
+services\Service.class
+entities\Kill.class
+main\SingleConstructorContext.class
+view\View.class
+entities\Weapon.class
+main\App.class
+dao\Dao.class
+entities\Match.class
+view\View$1.class
+entities\User.class
